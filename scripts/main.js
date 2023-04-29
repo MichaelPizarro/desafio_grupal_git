@@ -1,10 +1,10 @@
 $(Document).ready(function(){
     $("#tabla").DataTable({
         "language": {
-            "lengthMenu": "Display _MENU_ records per page",
+            "lengthMenu": "Desplegar _MENU_ elementos por página",
             "zeroRecords": "No hay nah",
-            "info": "Showing page _PAGE_ of _PAGES_",
-            "infoEmpty": "No records available",
+            "info": "Mostrando página _PAGE_ de _PAGES_",
+            "infoEmpty": "No hay elementos disponibles",
             "infoFiltered": "(filtered from _MAX_ total records)"
         }
 
